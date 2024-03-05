@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe4; /* Beige claro */
+    margin: 0; /* Eliminar margen predeterminado */
+    padding: 0; /* Relleno para tabular */
+    color: #000000; /* Color de texto oscuro */
+}
+
+.menu {
+    max-width: 600px;
+    margin: 0px auto; /* Eliminar margen predeterminado */
+    margin-bottom: 0px;
+    padding: 28px; /* Relleno para tabular */
+    background-color: #fff; 
+    color: #333;
+
+}
+
+.categoria {
+    margin-bottom: 0px; /* Agrega un espacio de X píxeles debajo del elemento con la clase "categoria" */
+}
+
+.producto {
+    padding: 0px 20px; /* Relleno para tabular */
+    border-bottom: 1px solid #ddd; /* Borde inferior de 1 píxel de ancho, sólido y color gris claro */
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton{
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+header {
+    text-align: center; 
+    background-color: #291212;
+    color: #fff; 
+    padding: 20px; /* Espaciado interno */
+}
+
+header h1 {
+    margin: 0; /* Eliminar margen predeterminado */
+    font-size: 30px; 
+}

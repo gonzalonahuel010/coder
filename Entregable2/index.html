@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="front.css">
+    <script defer src="scrpt.js"></script>
+    <title>KE HAMBURGUESAS</title>
+</head>
+
+<body>
+    <header>
+        <h1>KE HAMBURGUESAS</h1>
+    </header>
+
+    <div class="menu">
+        <h1>Menú de productos</h1>
+    
+        <!-- Comida -->
+        <div class="categoria">
+            <h2>Comida</h2>
+            <div class="productos">
+                <div class="producto">
+                    <p >Cheese Burger <br> $2000</p>
+                    <button class="boton" onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <p>Onion Burger <br> $2500</p>
+                    <button class="boton" onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+
+                </div>
+                <div class="producto">
+                    <p>BBQ Burger <br> $3000</p>
+                    <button class="boton" onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bebidas -->
+        <div class="categoria">
+            <h2>Bebidas</h2>
+            <div class="productos">
+                <div class="producto">
+                    <p>Agua <br> $700</p>
+                    <button class="boton" onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+
+                </div>
+                <div class="producto">
+                    <p>Jugo <br> $1000</p>
+                    <button class="boton" onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+
+                </div>
+                <div class="producto">
+                    <p>Gaseosa <br> $1500</p>
+                    <button class="boton" onclick="agregarAlCarrito(6)">Agregar al carrito</button>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Extras -->
+        <div class="categoria">
+            <h2>Extras</h2>
+            <div class="productos">
+                <div class="producto">
+                    <p>Cebolla <br> $700</p>
+                    <button class="boton" onclick="agregarAlCarrito(7)">Agregar al carrito</button>
+
+                </div>
+                <div class="producto">
+                    <p>Cheedar <br> $1200</p>
+                    <button class="boton" onclick="agregarAlCarrito(8)">Agregar al carrito</button>
+
+                </div>
+                <div class="producto">
+                    <p>Bacon <br> $1700</p>
+                    <button class="boton" onclick="agregarAlCarrito(9)">Agregar al carrito</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carrito de compras -->
+    <div class="carrito">
+        <h2>Carrito de compras</h2>
+        <ul id="listaProductos">
+            <!-- Los productos agregados al carrito se mostrarán aquí -->
+        </ul>
+        <p id="total">Total: $0</p>
+        <button class="boton" onclick="confirmarCompra()">Confirmar compra</button>
+    </div>
+    
+</body>
+</html>
